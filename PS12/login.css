@@ -1,0 +1,235 @@
+body{
+    background-color: bisque;
+    
+}
+.login-container
+{
+    height: 450px;
+    width:300px;
+    border: 2px solid black;
+    position: absolute;
+    top: 10% ;
+    left: 40%;
+    padding: 20px;
+}
+.form-title
+{
+    margin:0;
+    height: 60px;
+    width: 98%;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 246, 137);
+    
+}
+.title{
+    text-align: center;
+    color: red;
+    font-size: x-large;
+    font-weight: 2.5rem;
+}
+
+.row1
+{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+   
+}
+#r1c1
+{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 40%;
+    background-color: rgb(0, 149, 255);
+    margin-top: 5px;
+    margin-right:5px;
+    text-align: center;
+    border: 2px solid gray;
+}
+#r1c2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 60%;
+    height: 30px;
+    background-color: rgb(0, 149, 255);
+    border: 2px solid gray;
+}
+#r1c2 input{
+    padding: 1px;
+    width: 90%;
+}
+.row3
+{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+}
+#r3c1
+{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 40%;
+    background-color: rgb(0, 149, 255);
+    margin-top: 5px;
+    margin-right:5px;
+    text-align: center;
+    border: 2px solid gray;
+}
+#r3c2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 60%;
+    height: 60px;
+    background-color: rgb(0, 149, 255);
+    border: 2px solid gray;
+}
+#r3c2 input{
+    padding: 1px;
+    width: 90%;
+    height: 70%;
+}
+#r4c2
+{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 60%;
+    height: 90px;
+    background-color: rgb(0, 149, 255);
+    border: 2px solid gray;
+    overflow-y: auto;
+
+}
+#r4c2 input{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+.row4
+{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+.row5
+{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+#r5c1
+{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 20px;
+    background-color: rgb(0, 149, 255);
+    border: 2px solid gray;
+    margin-top: 5px;
+
+}
+#r5c2
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 60%;
+    height: 20px;
+    margin-left: 10px;
+    background-color: rgb(0, 149, 255);
+    border: 2px solid gray;
+}
+
+.row6
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+#r6c1
+{
+    background-color:rgb(0, 149, 255) ;
+    margin-top: 5px;
+    width: 40%;
+    height: 20px;
+    border: 2px solid gray;
+    text-align: center;
+}
+#r6c2
+{
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+    background-color:rgb(0, 149, 255) ;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 60%;
+    height: 20px;
+    border: 2px solid gray;
+
+}
+.row7
+{
+    width: 94%;
+    border: 2px solid gray;
+    margin-top: 5px;
+    background-color: rgb(0, 149, 255);
+    height: 20px;
+    text-align: center;
+}
+
+.row7{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: row;
+    padding: 5px;
+}
+
+.row7 button,
+.row7 p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; 
+}
+
+#choose-file
+{
+    margin-left: 5px;
+}
+
+.row8
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color:rgb(0, 149, 255) ;
+    border: 2px solid gray;
+    margin-top: 5px;
+}
+.row8 button{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    height: 30px;
+}
