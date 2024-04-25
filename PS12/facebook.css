@@ -1,0 +1,173 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header
+{
+    background-color: rgb(3, 3, 93);
+    height: 150px;
+    width: 100%;
+    margin-top:-30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo
+{
+    margin-left:60px ;
+    padding: 20px;
+    width: 40%;
+    color: white;
+    font-size: xx-large;
+}
+.input
+{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.email
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 20px;
+    
+}
+.checkbox-container {
+    display: inline-block;
+   margin-top: 5px;
+}
+
+.password
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 30px;
+    
+    
+}
+#forgot-password
+{
+    margin-top: 0;
+}
+.login {
+   margin-left: 0;
+   width: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+.login button
+{
+    width: 50%;
+    height: 20px;
+}
+.main
+{
+    display: flex;
+    flex-direction: row;
+}
+.connect-with
+{
+    width: 50%;
+    padding-left: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.connect-with p{
+    margin-top: 0;
+    font-size: x-large;
+    color: rgb(3, 3, 93);
+    margin-bottom: 10px;
+
+}
+.connect-with img{
+    
+    margin-left: 0;
+}
+
+.main-input
+{
+    width: 50%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    padding-left: 50px;
+}
+.main-input p{
+    margin-top: -20px;
+    color:rgb(3, 3, 93);
+}
+.main-input h1{
+    color: rgb(3, 3, 93);
+}
+.input-fields
+{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    
+}
+.name-input
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+}
+.gender
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+.signup-button button
+{
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+}
+
+.input-fields input{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border-color: darkgray;
+}
+.gender input{
+    width: auto;
+    height: auto;
+}
+.para
+{
+    margin-top: 25px;
+}
+
+.re-enter{
+
+    margin-top: 0;
+
+}
