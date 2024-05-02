@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    
+    .sidebar {
+      background-color: #f8f9fa;
+      min-height: 100vh;
+    }
+    table{
+        width: 100%;
+        border: 1px solid gray;
+    }
+    table tr,td,th{
+        border: 1px solid rgb(216, 212, 212);
+    }
+    table tr:nth-child(even)
+    {
+        background-color: rgb(234, 229, 229);
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    
+    <div class="col-lg-3 sidebar">
+      <h2 class="mt-2">Some Favourites</h2>
+      <p class="text-primary">Celery Root</p>
+      <p class="text-primary">Spaghetti Squash</p>
+      <p class="text-primary">Killer Mushroom</p>
+      <input type="text" id="recipe">
+      <button class="mt-2 btn btn-primary" type="button" id="search-recipe">Search Recipe</button>
+    </div>
+
+    
+    <div class="col-lg-9">
+      <div class="container">
+        <div class="row">
+            <div class="container ">
+                <div class="alert alert-danger" role="alert">
+                  <b>Uh oh!</b> Have you had your daily dose of vegetables??
+                </div>
+              </div>
+          <div class="col">
+            <h1 class="mt-1">Wild and Wacky Vegetables</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan ligula sed erat suscipit, vel congue arcu pulvinar. Integer volutpat dolor sit amet orci tempor varius. Donec eleifend, purus eget pulvinar vehicula, odio tortor condimentum libero, nec eleifend tortor dolor nec libero.</p>
+          </div>
+        </div>
+        <div class="row"></div>
+        <div class="col">
+            <h2 class="mt-4">Some diseases</h2>
+            <table>
+                <tr>
+                    <th>Veggie</th>
+                    <th>Disease</th>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        Beets
+                    </td>
+                    <td>
+                        Beeturia
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Carrots
+                    </td>
+                    <td>
+                        Carotenosis
+                    </td
+
+                </tr>
+            </table>
+        </div>
+        <div class="row mt-4">
+          <div class="col">
+            <img src="./assets/veggies1.jpg" alt="Sample Image" class="img-fluid mt-3 ">
+            <h2>Beets</h2>
+            <p>Careful not to get your hands dirty</p>
+
+          </div>
+          <div class="col">
+            <img src="./assets/veggies2.jpg" alt="Sample Image" class="img-fluid mt-3">
+            <h2>Carrots</h2>
+            <p>Not sticks can motivate</p>
+            
+          </div>
+          <div class="col">
+            <img src="./assets/veggies3.jpg" alt="Sample Image" class="img-fluid mt-3">
+            <h2>Asparagus</h2>
+            <p>Spears, spears, spears</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
