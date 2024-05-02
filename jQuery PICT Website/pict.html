@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <title>Document</title>
+    <style>
+        .navbar
+        {
+            
+            background-color: blue !important;
+            color: white !important;
+            height: 30px;
+            text-decoration: none;
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .header
+        {
+            background-color: rgb(235, 235, 235);
+            margin-top: -20px;
+        }
+        .ui-grid-a
+        {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        .ui-block-a,.ui-block-b,.ui-block-c
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(238, 237, 237);
+            color: black;
+            border-radius: 10px;
+            
+        }
+        .card
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .card p,img{
+            padding: 10px;
+        }
+        .navbar a{
+            color: white; /* Set text color to white */
+        text-decoration: none; /* Remove underline from links */
+        }
+        .footer
+        {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    
+    //home page
+    <div data-role="page" id="home">
+        <div class="navbar">
+            <ul>
+                <li><a href="#home" class="ui-btn-active">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="header" class="header">
+            <h3 style="color: red;text-align:center;margin-top:20px;">Society for Computer Technology and Research</h3>
+            <h1 style="color: blue;text-align:center;margin-top:-10px">Pune Institute of Computer Technology</h1>
+            <h3 style="color: red;text-align:center; margin-top:-10px">(An Autonomous Institute affiliated to Savitribai Phule Pune University)</h3>
+
+        </div>
+        <div data-role="main" class="ui-content">
+
+            <h1 style="color: blue;text-align:center;">Welcome to PICT Home Page!</h1>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <div class="card">
+
+                        <img src="./assets/pict1.jpg" alt="card1">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus consectetur, saepe, commodi explicabo cumque excepturi modi minima culpa tenetur tempore earum in iure vitae aut amet magni delectus voluptate numquam?</p>
+
+                    </div>
+
+                </div>
+                <div class="ui-block-b">
+                    <div class="card">
+                        <img src="./assets/pict2.jpg" alt="card2">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad culpa, sed velit ea eos, nesciunt nobis nemo quas ex architecto asperiores officiis, ipsam exercitationem praesentium tenetur totam mollitia aperiam nisi!</p>
+
+                    </div>
+
+                </div>
+                <div class="ui-block-c">
+                    <div class="card">
+
+                        <img src="./assets/pict3.jpg" alt="card3">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium natus tempore architecto, accusantium nihil,<br> sequi ipsa rem, soluta voluptatem maxime facilis corporis ullam culpa pariatur <br>voluptatibus deleniti aperiam? Quibusdam, nisi.</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    //about
+    <div data-role="page" id="about">
+        <div class="navbar">
+            <ul>
+                <li><a href="#home" class="ui-btn-active">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div data-role="content" class="ui-content">
+
+            <h1 style="text-align: center;color:blue">Our History</h1>
+            <p style="text-align: center;">During the 1980s, as the computer revolution was sweeping the world, empowering ambitious professionals to bring their dreams to reality, Pune Institute of Computer Technology (PICT) was established in 1983 under the aegis of Society for Computer Technology and Research (SCTR) by noble personalities namely, Shri. Gopal Krishna, Shri. N. Ramakrishna, and Shri. R. S. Kothavale. The goal of the great visionaries was to make PICT the leader in higher technical education and research and thereby contribute towards the growth of the organization and society at large by attracting and sustaining gifted individuals who have enormous potential.</p>
+            <p style="margin-top:20px ;text-align:center">Taking into account, the ever-increasing demand for Computer Engineers, globally, PICT started the Bachelor of Engineering (B.E.) programme in Computer Engineering with affiliation to University of Pune (now Savitribai Phule Pune University (SPPU)). PICT is the first self-financed institute to start a Computer Engineering (B.E.) programme in Maharashtra, with an intake capacity of 60 which was subsequently increased to 120 in the Academic Year (A.Y.) 1984-85, and at present, is 240. In the year 1995, considering the rapid growth in the electronic industry and the huge demand for competent engineers, the institute started Electronics & Telecommunication Engineering (B.E.), programme with an intake of 60, and at present, it is 240. In A.Y. 2001-02, the Information Technology (B.E.) programme was started to meet the requirements of the booming IT industry, with an intake of 60, which is now 180.</p>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <div class="card">
+                        <img style = "height:150px;width:300px" src="./assets/pict_hist.jpg" alt="Image 1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="card">
+                        <img style = "height:150px;width:300px"src="./assets/pict_hist2.jpg" alt="Image 2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer" class="footer">
+                <h4>Copyright &copy; 2021 Company Name</h4
+
+            </div>
+        </div>
+
+    </div>
+    <!-- contact -->
+    <div data-role="page" id="contact">
+        <div class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact" class="ui-btn-active">Contact</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <p>Hello contact us</p>
+        </div>
+    </div>
+    
+    
+    
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js" ></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</body>
+</html>
