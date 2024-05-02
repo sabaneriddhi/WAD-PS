@@ -1,0 +1,179 @@
+body{
+    background-color: rgb(249, 228, 203);
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+section{
+    height: 33%;
+    width :100%;
+    
+}
+
+.about-me
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.about-me-para
+{
+    width: 50%;
+    color: rgb(191, 108, 7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    font-style: italic;
+}
+
+.about-me-para h1{
+    margin-bottom: 0;
+    font-size: 50px;
+    
+    color: rgb(64, 36, 1);
+    font-weight: 2.5rem;
+    letter-spacing: -1px;
+    
+}
+
+.about-me-para h1:hover{
+    transition: all 0.3s ease; 
+    transform: scale(1.1);
+
+}
+.about-me-para h2{
+    margin-top: -10px;
+}
+.about-me-img
+{
+    
+    width: 50%;
+    padding: 20px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.about-me-img img{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+.projects
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color:rgb(64, 36, 1);
+
+}
+.projects-table {
+    width: 80%;
+    color: rgb(64, 36, 1);
+}
+
+.projects-table tr {
+    text-align: center;
+}
+
+.projects-table tr:nth-child(odd) {
+    background-color: rgb(205, 167, 109);
+}
+
+.projects-table tr:nth-child(even) {
+    background-color: blanchedalmond;
+}
+
+.projects-table tr:nth-last-child(odd),
+.projects-table th {
+    border-radius: 5px; /* Adjust the border radius to your preference */
+}
+/* .skills
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 50px;
+    width: 100%;
+
+}
+
+.skills-list{
+    text-align: baseline;
+} */
+
+section h2{
+    text-align: center;
+    color: rgb(64, 36, 1);;
+    font-size: xx-large;
+    font-weight: 2.5rem;
+}
+.skillset
+{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center ;
+    text-align: center;
+    color: rgb(64, 36, 1);;
+}
+.skills-head 
+{
+    background-color:rgb(205, 167, 109);
+    
+    margin-top: -30px;
+    text-align: bottom;
+
+}
+h3{
+    text-decoration: underline;
+}
+.card1,.card2,.card3,.card4
+{
+    width: 250px;
+    height: 200px; 
+    background-color: rgb(250, 242, 232); 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.card1:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+.card2:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+.card3:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+.card4:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+
+.skilss-list
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
