@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Website</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js" ></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+   <!-- Page 1: Login Page -->
+<div data-role="page" id="page1">
+    <div data-role="header">Welcome</div>
+    <div data-role="main" class="ui-content">
+
+        
+        <form>
+            <div>
+                <h1>Login</h1>
+            </div>
+            <div class="ui-field-contain">
+                
+
+                <input type="text" placeholder="Username" id="username"/>
+                
+            </div>
+            <div class="ui-field-contain">
+                <!-- <label for="password">Password: </label> -->
+                <input type="password" placeholder="Password" id="password"/>
+
+            </div>
+            <div data-role="button"class="ui-field-btn">
+                <a href="#home">
+                    <button type="submit">Login</button>
+
+                </a>
+                
+            </div>
+        </form>
+
+    </div>
+    <div data-role="footer">
+        Check out our Farm to Table Products!
+    </div>
+
+</div>
+
+<!-- Page 2: Home Page -->
+<div data-role="page" id="home">
+    
+    <div data-role="navbar">
+        <ul>
+            <li><a href="#home" class="ui-btn-active">Home</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#about">About Us</a></li>
+        </ul>
+    </div>
+    <div data-role="main" class="ui-content">
+        <div class="section1">
+            
+            <h1>Welcome to Farm Fresh</h1>
+
+        </div>
+        <div class="section2">
+            <style>
+                
+                ul[data-role="listview"] h3 {
+                    color: green;
+                }
+            </style>
+            <ul data-role="listview" data-inset="true">
+                <li data-role="list-divider">Items</li> 
+                <li data-role="collapsible"> 
+                    <h3>Vegetables</h3>
+                    <ul data-role="listview">
+                        <li><span style="display: inline-block; width: 200px;">Onion</span> <button class="ui-btn-l">Add to Cart</button></li>
+                        <li><span style="display: inline-block; width: 200px;">Tomatoes</span> <button class="ui-btn-l">Add to Cart</button></li>
+                        <li><span style="display: inline-block; width: 200px;">Garlic</span> <button class="ui-btn-l">Add to Cart</button></li>
+                        <li><span style="display: inline-block; width: 200px;">Brinjal</span> <button class="ui-btn-l">Add to Cart</button></li>
+                        <li><span style="display: inline-block; width: 200px;">Mushroom</span> <button class="ui-btn-l">Add to Cart</button></li>
+                        <li><span style="display: inline-block; width: 200px;">Cabbage</span> <button class="ui-btn-l">Add to Cart</button></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible"> 
+                    <h3>Milk Products</h3>
+                    <ul data-role="listview">
+                        <li><span style="display: inline-block; width: 200px;">Cheese</span> <button class="ui-btn-l">Add to Cart</button></li>
+                        <li><span style="display: inline-block; width: 200px;">Paneer</span> <button class="ui-btn-l">Add to Cart</button></li>
+                        <li><span style="display: inline-block; width: 200px;">Buttermilk</span> <button class="ui-btn-l">Add to Cart</button></li>
+                        <li><span style="display: inline-block; width: 200px;">Cream</span> <button class="ui-btn-l">Add to Cart</button></li>
+                        <li><span style="display: inline-block; width: 200px;">Ghee</span> <button class="ui-btn-l">Add to Cart</button></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="contact">
+
+    <div data-role="navbar">
+        <ul>
+            <li><a href="#home" >Home</a></li>
+            <li><a href="#contact" class="ui-btn-active">Contact Us</a></li>
+            <li><a href="#about">About Us</a></li>
+        </ul>
+    </div>
+
+    <!-- Content -->
+    <div role="main" class="ui-content">
+        <h2>Get in Touch</h2>
+        <p>We pride ourselves on offering the freshest vegetables straight from our farm to your table. <br>Our vegetables are harvested at the peak of freshness to ensure you receive the highest quality produce. Whether it's crispy lettuce, juicy tomatoes, or vibrant bell peppers, you can trust that our vegetables are grown with care and delivered with love.</p>
+    </div>
+
+    <!-- Footer -->
+    <div data-role="footer">
+        <h4>Contact us: +91 8600xxxxxx</h4>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
